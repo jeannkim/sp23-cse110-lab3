@@ -86,7 +86,6 @@
     <p>Fill out the application below for a chance to be one of us.</p>
     <form method="get" id="form1">
         <label for="name">Name:</label><br>
-        <br>
         <input type="text" id="name" name="name"><br>
         <br>
         <label for="DOB">DOB:</label><br>
@@ -108,7 +107,8 @@
         </fieldset><br>
         <br>
         <label for="bt">Favorite bloodtype:</label>
-        <datalist id="bt">
+        <input list="btypes" id="bt" name="bt">
+        <datalist id="btypes">
             <option value="A">
             <option value="B">
             <option value="O">
