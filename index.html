@@ -48,18 +48,24 @@
                 <ol>
                     <li>Entry brainstorm</li>
                     <li>First timeline</li>
-                    <li>Extra recruitment</li>
+                    <li>
+                        <details>
+                            <summary>Extra recruitment</summary>
+                            <p>Call Michael's friend P.L. for information on the family</p>
+                        </details>
+                    </li>
                 </ol>
-            <h3>Comments/questions</h3>
+            <h3>Notes/comments/questions</h3>
                 <ul>
                     <li>When is Ponrad Crebys <em>really</em> open?</li>
                     <li><b>Jimmy</b> may have late night commitment.</li>
+                    <li>Review <i>Money Heist: Korea</i> on Netflix</li>
                 </ul>
         </section>
         
         <section id="shots">
             <h2>Meeting Screenshots</h2>
-            <img src="media/map.jpg" alt="map">
+            <img src="media/map.png" alt="map">
             <img src="media/pc.jpg" alt="outside">
         </section>
         
@@ -75,6 +81,60 @@
         </section>
 
     </main>
-    
+    <hr>
+    <h3>Are You In?</h3>
+    <p>Fill out the application below for a chance to be one of us.</p>
+    <form method="get" id="form1">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="DOB">DOB:</label><br>
+        <input type="date" id="DOB" name="DOB"><br>
+        <fieldset>
+            <legend>Bloodtype:</legend>
+            <input type="radio" id="A">
+            <label for="A">A</label><br>
+
+            <input type="radio" id="B">
+            <label for="B">B</label><br>
+
+            <input type="radio" id="O">
+            <label for="O">O</label><br>
+
+            <input type="radio" id="AB">
+            <label for="AB">AB</label><br>
+        </fieldset>
+
+        <label for="bt">Favorite bloodtype:</label>
+        <input list="bt" id="bt" name="bt">
+        <datalist id="bt">
+            <option value="A">
+            <option value="B">
+            <option value="O">
+            <option value="AB">
+        </datalist>
+        
+        <fieldset>
+            <legend>Intact Limbs:</legend>
+            <input type="checkbox" id="la">
+            <label for="la">Left arm</label><br>
+
+            <input type="checkbox" id="ra">
+            <label for="ra">Right arm</label><br>
+
+            <input type="checkbox" id="ll">
+            <label for="ll">Left leg</label><br>
+
+            <input type="checkbox" id="rl">
+            <label for="rl">Right leg</label><br>
+        </fieldset>
+
+
+        <p><label for="essay">Why are you in?</label></p>
+        <textarea id="essay" rows="4" cols="50"></textarea>
+        <br>
+    </form>
+
+    <button type="submit" form="form1" value="Submit">Submit</button>
+
   </body>
 </html>
