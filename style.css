@@ -69,48 +69,44 @@ hidden {
 }
 
 #my-id {
-background-color: blue;
+    background-color: blue;
 }
 
 * {
-margin: 0;
+    margin: 0;
 }
 
 p {
-font-size: 16px;
+    font-size: 16px;
 }
 
-a[href="https://example.com"] {
-text-decoration: none;
+a[href="https://google.com"] {
+    text-decoration: none;
 }
 
 button:hover {
-background-color: yellow;
-}
-
-h1, h2, h3 {
-font-weight: bold;
+    background-color: yellow;
 }
 
 
 ul li {
-list-style-type: none;
+    list-style-type: none;
 }
 
 nav > ul {
-display: flex;
+    display: flex;
 }
 
 p ~ span {
-font-style: italic;
+    font-style: italic;
 }
 
 h2 + p {
-color: green;
+    color: green;
 }
 
 a.external-link {
-color: purple;
+    color: purple;
 }
 
 .flex-container {
@@ -121,22 +117,22 @@ color: purple;
 }
 
 .flex-item {
-flex-grow: 1;
-flex-shrink: 0;
-flex-basis: 33%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 33%;
 }
 
 .grid-container {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: auto;
-grid-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
 }
 
 .grid-item {
-background-color: #ccc;
-padding: 10px;
-border: 1px solid #999;
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid #999;
 }
 
 @media only screen and (max-width: 600px) {
