@@ -64,12 +64,12 @@ hidden {
     position: relative;
 }
 
-.my-class {
+.blood {
     color: red;
 }
 
-#my-id {
-    background-color: blue;
+#form1 {
+    background-color: rgb(74, 25, 0);
 }
 
 * {
@@ -136,11 +136,11 @@ a.external-link {
 }
 
 @media only screen and (max-width: 600px) {
-.flex-container {
-    flex-direction: column;
-}
+    .flex-container {
+        flex-direction: column;
+    }
 
-.grid-container {
-    grid-template-columns: 1fr;
-}
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
