@@ -7,6 +7,7 @@ body {
     color: rgb(255, 255, 255);
     margin: auto;
     padding-top: 0px;
+    display: block;
 }
 
 h1,
@@ -30,6 +31,8 @@ nav {
     border-width: 0px;
     border-radius: 0px;
     text-align: left;
+    display: flex;
+    position: fixed;
 }
 
 /* unvisited link */
@@ -51,4 +54,97 @@ color: var(--deepblu);
 /* selected link */
 a:active {
 color: var(--gold);
+}
+
+hidden {
+    height: 0px;
+    width: 0px;
+    max-width: 0px;
+    min-width: 0px;
+    position: relative;
+}
+
+.my-class {
+    color: red;
+}
+
+#my-id {
+background-color: blue;
+}
+
+* {
+margin: 0;
+}
+
+p {
+font-size: 16px;
+}
+
+a[href="https://example.com"] {
+text-decoration: none;
+}
+
+button:hover {
+background-color: yellow;
+}
+
+h1, h2, h3 {
+font-weight: bold;
+}
+
+
+ul li {
+list-style-type: none;
+}
+
+nav > ul {
+display: flex;
+}
+
+p ~ span {
+font-style: italic;
+}
+
+h2 + p {
+color: green;
+}
+
+a.external-link {
+color: purple;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item {
+flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 33%;
+}
+
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: auto;
+grid-gap: 10px;
+}
+
+.grid-item {
+background-color: #ccc;
+padding: 10px;
+border: 1px solid #999;
+}
+
+@media only screen and (max-width: 600px) {
+.flex-container {
+    flex-direction: column;
+}
+
+.grid-container {
+    grid-template-columns: 1fr;
+}
 }
