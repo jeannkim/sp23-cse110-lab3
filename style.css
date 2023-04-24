@@ -17,14 +17,14 @@ h3 {
 
 strong {
     /* this styles bold text */
-    color: #800000;
+    color: #ff0f0f;
 }
 
 nav {
     font-size: 25px;
-    color: darkolivegreen;
-    padding: 0.5em 10px;
-    margin-top:5px;
+    color: slategray;
+    padding: 0em 0px;
+    margin-top: 0px;
     border-style: dashed;
     border-color: white;
     border-width: 0px;
