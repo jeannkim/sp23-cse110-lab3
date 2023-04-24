@@ -1,0 +1,10 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    background-color: var(--nighblack);
+    /* you can delete the line below if you'd prefer to not use an image */
+    background-size: 65px;
+    color: Silver;
+    /*background-image: var(--body-bg-image);*/
+}
+
